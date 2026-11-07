@@ -1,0 +1,32 @@
+.add-user-form{
+
+  display: block;
+  padding: 15px;
+  gap: 10px;
+  border: rgba(17, 18, 17, 0.652) solid 2px;
+  border-radius: 10px;
+  background-color: rgba(95, 74, 186, 0);
+  background:linear-gradient(180deg, #6594a4, #7bbfc5);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead, tbody, tr, th, td {
+  border: 1px solid #171717;
+  padding: 8px;
+  color: #171717;
+}
+
+td,th{
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid #171717;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #a5d6da;
+}
